@@ -1,8 +1,11 @@
 @import '../../../scss/functions.scss';
 
-header {
-  background-color: #1D1B20;
+.header {
+  background-color: #6108e7;
   font-size: rem-calc(16);
-  text-align: center;
+
+  &__jornada{
+    color: white
+  }
 }
 
