@@ -10,6 +10,7 @@ import { SobreComponent } from './pages/sobre/sobre.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { VenderMilhasComponent } from './components/vender-milhas/vender-milhas.component';
+import { ButtonComponent } from './components/button/button.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { VenderMilhasComponent } from './components/vender-milhas/vender-milhas.
     SobreComponent,
     FooterComponent,
     HomeComponent,
-    VenderMilhasComponent
+    VenderMilhasComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,27 @@
+@import '../../../scss/functions.scss';
+@import '../../../scss/variables.scss';
+
+button {
+  width: rem-calc(200);
+  padding: 1rem;
+  border-radius: rem-calc(50);
+
+
+  &.sair {
+      background-color: $sair;
+      font-weight: 700;
+      font-size: 1rem;
+  }
+
+  &.info {
+      background-color: $info;
+  }
+
+  &.cadastro {
+      background-color: $cadastro;
+  }
+
+  &.login {
+    background-color: $login;
+  }
+}
