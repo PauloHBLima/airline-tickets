@@ -1,4 +1,4 @@
-import { ButtonVariants } from '../components/button/types/Button.variants.type';
+import { ButtonVariants } from '../components/button/types/button.variants.type';
 
 export interface IButton {
     variant: ButtonVariants;

@@ -1,13 +1,13 @@
 <nav class="header">
   <a class="__jornada" routerLink="/">
-    <i class="pi pi-compass" style="font-size: 1.5rem" style="color: black"> Jornada</i>
+    <!-- <i class="pi pi-compass"  style="color: rgb(255, 255, 255)"> Jornada</i> -->
+    <img src="assets/images/logo.png" alt="">
   </a>
-  <ul>
-    <li><a routerLink="/">Home</a></li>
-    <li><a routerLink="/venderMilhas">Vender Milhas</a></li>
-    <li><a routerLink="/sobre">Sobre</a></li>
-  </ul>
-  <p-button label="Cadastre-se" styleClass="p-button-raised p-button-info"></p-button>
-  <p-button label="Login" styleClass="p-button-outlined p-button-info" ></p-button>
+  <div class='header__list'>
+    <a class='header__link' routerLink="/venderMilhas">Vender milhas</a>
+    <a class='header__link' routerLink="/sobre">Sobre</a>
+    <app-button [text]="buttonSettings.text" [variant]="buttonSettings.variant"></app-button>
+    <app-button [text]="buttonLogin.text" [variant]="buttonLogin.variant"></app-button>
+  </div>
 
 </nav>

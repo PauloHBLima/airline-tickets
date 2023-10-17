@@ -1,5 +1,6 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
-import { ButtonVariants } from './types/Button.variants.type';
+import { ButtonVariants } from './types/button.variants.type';
+
 
 @Component({
   selector: 'app-button',
@@ -10,8 +11,9 @@ export class ButtonComponent {
     @Input() variant: ButtonVariants | null = null;
     @Input()text: string = '';
     @Output() onClick = new EventEmitter<any>();
-
+    @Input() variantColor: 'cadastro' | 'login' = 'cadastro';
     emitEvent(event: any){
         this.onClick.emit(event);
     }
+
 }

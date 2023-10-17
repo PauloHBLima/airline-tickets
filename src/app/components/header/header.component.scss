@@ -1,11 +1,34 @@
 @import '../../../scss/functions.scss';
 
 .header {
-  background-color: #6108e7;
+  background-color: #1D1B20;
   font-size: rem-calc(16);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 220px 16px 220px;
+  align-items: center;
+  /* width: rem-calc(1440); */
+  Height: rem-calc(72);
 
-  &__jornada{
-    color: white
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: rem-calc(475);
+    height: rem-calc(36);
+    gap: rem-calc(40);
+
   }
+
+  &__link {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: rem-calc(13);
+    line-height: 24px;
+    text-align: center;
+  }
+
 }
 

@@ -1,27 +1,46 @@
 @import '../../../scss/functions.scss';
 @import '../../../scss/variables.scss';
 
+
 button {
-  width: rem-calc(200);
-  padding: 1rem;
-  border-radius: rem-calc(50);
 
 
   &.sair {
-      background-color: $sair;
-      font-weight: 700;
-      font-size: 1rem;
+    background-color: $sair;
+
   }
 
   &.info {
-      background-color: $info;
+    background-color: $info;
   }
 
   &.cadastro {
-      background-color: $cadastro;
+    background-color: $cadastro;
+    width: rem-calc(140);
+    height: rem-calc(36);
+    border-radius: rem-calc(5);
+    gap: rem-calc(8);
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
   }
 
   &.login {
     background-color: $login;
+    width: rem-calc(94);
+    height: rem-calc(36);
+    border-radius: rem-calc(5);
+    gap: rem-calc(8);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color:#6750A4;
+    border: 1px solid #79747E;
   }
 }
